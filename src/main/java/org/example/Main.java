@@ -6,5 +6,9 @@ public class Main {
         System.out.println("This is Member1");
         System.out.println("This is Member2");
         System.out.println("This is Member3");
+        Fruit fruit = new Apple();
+        fruit.name();;
+        fruit = new Mango();
+        fruit.name();
     }
 }
